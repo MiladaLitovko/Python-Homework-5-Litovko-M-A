@@ -34,8 +34,7 @@ def itogi():
     is_num_in_desk = False
     for i in range(len(array)):
         for k in range(len(array)):
-            if array[i][k] in range(1,10):
-                # print(array[i][k], range(10))
+            if array[i][k] in str(range(1,10)):
                 is_num_in_desk = True
     return is_num_in_desk
 
